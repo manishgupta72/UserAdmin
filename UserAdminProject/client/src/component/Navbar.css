@@ -1,0 +1,25 @@
+.container
+{    display: flex;
+    justify-content:space-between;
+    padding: 4.2rem 2.2rem;
+}
+ul
+{
+   
+    display: flex;
+    gap: 3rem;
+}
+@media (width <= 998px) {
+    ul
+    {
+        margin-left: 20px;
+        gap:1rem;
+    }
+}
+
+@media (width <= 798px) {
+    ul
+    {
+        gap:1rem;
+    }
+}
